@@ -30,8 +30,8 @@
 setup:
   
   # When setting up your bot, enter the bots token and your server ID below
-  token: "NjI3NTY5NTA1NDIxNDkyMjI1.XY-jpQ.yiD0hm-EPTEoD5vV3rNgRvNqqew"
-  serverID: "347312373914402828"
+  token: ""
+  serverID: ""
 
   
 ##########################################
