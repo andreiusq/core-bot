@@ -1,0 +1,705 @@
+
+
+# Welcome to the messages file.
+# Here you can set any messages or emoji you want the bot to use.
+
+## Hawsk Romania Tip! - Use CTRL+F to search this file for commands!
+
+##########################################
+#                                        #
+#               General                  #
+#                                        #
+##########################################
+
+gen:
+  
+  # Error Messages #
+  err:
+    # Cool Down
+    coolDownTitle: "🚫 Așteaptă"
+    coolDownMessage: "Poți utiliza această comandă o dată la"
+    # Usage
+    usage: "Sintaxă -"
+    # Missing Args
+    missingArgs: "Invalid Input!"
+    # Missing Perms
+    missingPerms: "🚫 Missing Permissions!"
+    roleTooLow: "My role is below the role you wish to act  on. Move my role higher to use this."
+    # No Perms
+    deniedAccess: "You don't have access to this command!"
+    permissionsFooter: "%SERVERNAME% Permissions ➤ Command ran by %USER%"
+
+  # Logs #
+  logs:
+    emoji: "🗒"
+    user: "**User** -"
+    time: "**Time** -"
+    channel: "**Channel** -"
+    staffMember: "**Staff Member** -"
+    reason: "**Reason** -"
+    message: "**Message** -"
+    added: "**Added** -"
+    removed: "**Removed** -"
+    ticket: "**Ticket** -"
+    voiceTicket: "**Voice Ticket** -"
+    poll: "**Poll** -"
+    amount: "**Amount** -"
+    sentBy: "**Sent By** -"
+    reportedBy: "**Reported By** -"
+    role: "**Role** -"
+    bug: "**Bug** -"
+    suggestion: "**Suggestion** -"
+
+
+##########################################
+#                                        #
+#               Economy                  #
+#                                        #
+##########################################
+
+eco:
+
+  # Settings #
+  footer: "%SERVERNAME% Economy ➤ Command ran by %USER%"
+
+  # Messages #
+  balance:
+    wallet: "Wallet:"
+    bank: "Bank:"
+  buy:
+    usage: "<rank>"
+    brought: "✅ %USER% brought the %ROLE% role for %CURRENCY%%COST%"
+    notEnough: "🚫 You need at least %CURRENCY%%COST% to buy this."
+    noRole: "🚫 There is no role with the name %ROLE% in this server! Contact server admins!"
+  deposit:
+    usage: "<amount>"
+    deposited: "✅ %USER% has deposited %CURRENCY%%AMOUNT% into their bank."
+    notEnough: "🚫 You dont have enough money to deposit that amount."
+    numbersOnly: "🚫 You can't deposit anything other than a number!"
+    noNegatives: "🚫 You can't deposit a negative amount!"
+  shop:
+    shop: "Rank Shop"
+  top:
+    message: "Balance Top"
+  withdraw:
+    usage: "<amount>"
+    withdrawn: "✅ %USER% has withdrawn from %CURRENCY%%AMOUNT% their bank."
+    notEnough: "🚫 You dont have enough money in your bank to withdraw that amount."
+    numbersOnly: "🚫 You can't withdraw anything other than a number!"
+    noNegatives: "🚫 You can't withdraw a negative amount!"
+  work:
+    usage: "<jobType>"
+    worked: "✅ %USER% worked as a %JOB% and got paid %CURRENCY%%AMOUNT%."
+    helpTitle: "Work command help"
+    helpMessage: "Please mention a job to do! You can choose from the following. (Max Pay - Min Pay)"
+
+
+##########################################
+#                                        #
+#             Fun & Games                #
+#                                        #
+##########################################
+
+fun:
+
+  # Settings # 
+  footer: "%SERVERNAME% Fun & Games ➤ Command ran by %USER%"
+
+  # Messages #
+  eightBall: 
+    usage: "<future>"
+    options:
+            ["is not going to happen",
+             "is not likely to happen",
+             "might happen",
+             "probably will happen",
+             "will definitely happen"]
+    future: "🔮 **%FUTURE%** %RESPONSE%"
+  flip:
+    options:
+            ["Heads",
+             "Tails"]
+    flip: "🔅 %USER%, You got **%RESULT%**"
+  hug:
+    usage: "<user>"
+    hugged: "🤗 **%SENDER% hugged %RECIVER%**"
+  meme:
+    thread: "View thread"
+    info: "👍 %UPVOTES% 👎 %DOWNVOTES% 💬 %COMMENTS%"
+  numbergen:
+    generating: "Generating number..."
+    number: "🔢 Random Number... **%NUMBER%**!"
+  poll:
+    usage: "<topic>"
+    pollTitle: "📊 Community Poll"
+    poll: "%POLL%"
+    log: "Poll"
+  rate:
+    usage: "<item>"
+    rate: "⭐ %ITEM% gets a %RAtING% from me!"
+  roll:
+    rolling: "Rolling die..."
+    rolled: "🎲 %USER% rolled a **%ROLL%**!"
+  rps:
+    options: ["rock", 
+              "paper", 
+              "scissors"]
+    win: "win"
+    loss: "loss"
+    draw: "draw"
+    title: "Rock - Paper - Scissors"
+    message: "Choose an option below"
+    result: "The result is:"
+    you: "You chose:"
+    bot: "The bot chose:"
+    tooSlow: "Too Slow!"
+  slap:
+    usage: "<user>"
+    slapped: "**👏 %SENDER% slapped %RECIVER%**"
+  xmas:
+    days: "🎅 %DAYS% days left till Christmas!"
+    
+
+##########################################
+#                                        #
+#                Music                   #
+#                                        #
+##########################################
+
+music:
+
+  # Settings # 
+  footer: "%SERVERNAME% Music ➤ Command ran by %USER%"
+
+  # Messages #
+
+  leave: 
+    notConnected: "🚫 You are not connected to the voice channel with the bot!"
+    botNotConnected: "🚫 The bot is not currently connected to a voice channel!"
+    leavingChannel: "👋 Leaving Voice Channel..."
+  pause:
+    noMusic: "🚫 There currently isn't any music playing!"
+    notConnected: "🚫 You are not connected to the voice channel with the bot!"
+    alreadyPaused: "🚫 The music is already paused!"
+    paused: "🛑 Paused %SONG%"
+  play:
+    usage: "<song>"
+    connectToVC: "🚫 Please connect to a voice channel!"
+    addedSong: "🎵 Song added to queue!"
+    songName: "Song Name:"
+    nowPlayingTitle: "🎵 Now Playing"
+    requestedBy: "Requested By:"
+    nowPlaying: "Now Playing:"
+  queue:
+    noMusic: "🚫 There's currently no music playing!"
+    queue: "🎹 Music Queue"
+    requestedBy: "Requested By:"
+    nowPlaying: "Now Playing:"
+  resume:
+    noMusic: "🚫 There currently isn't any music playing!"
+    notConnected: "🚫 You are not connected to the voice channel with the bot!"
+    notPaused: "🚫 The music is not paused!"
+    resumed: "🎵 Resumed %SONG%"
+  search:
+    search: "🌐 Search Results"
+    number: "Choose a number between"
+  skip:
+    noQueue: "🚫 There is nothing in the queue for me to skip to!"
+    noMusic: "🚫 There currently isn't any music playing!"
+    notConnected: "🚫 You are not connected to the voice channel with the bot!"
+    alreadyVoted: "🚫 You have already voted! (%VOTES%/%REQUIRED%)"
+    skipped: "▶️ I've skipped this song!"
+    voted: "✅ You have voted to skip this song! (%VOTES%/%REQUIRED%)"
+  volume:
+    noMusic: "🚫 There currently isn't any music playing!"
+    notConnected: "🚫 You are not connected to the voice channel with the bot!"
+    selectANumber: "🚫 Please enter a number between 0-200"
+    volume: "🔊 Set volume of %SONG% to %VOLUME%."
+
+
+##########################################
+#                                        #
+#              Giveaways                 #
+#                                        #
+##########################################
+
+giveaways:
+
+  # Settings # 
+  footer: "%SERVERNAME% Giveaways ➤ Command ran by %USER%"
+  err: "🚫 No giveaway found for this ID, please check and try again!"
+
+  # Messages #
+  gcreate:
+    usage: "<time> <winners amount> <prize>"
+    create: "@everyone\n\n🎉🎉 **GIVEAWAY** 🎉🎉"
+    ended: "@everyone\n\n🎉🎉 **GIVEAWAY ENDED** 🎉🎉"
+    participate: "React with %EMOJI% to participate!"
+    time: "Time remaining: **%DURATION%**"
+    winner: "Congratulations, %WINNERS%! You won **%PRIZE%**!"
+    noWinner: "Giveaway cancelled, no valid participations."
+    winners: "winner(s)"
+    endsAt: "End at"
+  gdelete:
+    usage: "<msgID>"
+    deleted: "✅ Success! Giveaway deleted!"
+  gend:
+    usage: "<msgID>"
+    ended: "✅ Success! Giveaway Ended!"
+  greroll:
+    usage: "<msgID>"
+    rerolled: "✅ Success! Giveaway Rerolled!"
+
+
+##########################################
+#                                        #
+#                Levels                  #
+#                                        #
+##########################################
+
+levels:
+
+  # Settings # 
+  footer: "%SERVERNAME% Leveling ➤ Command ran by %USER%"
+
+  # Messages #
+  leaderboard:
+    leaderboard: "Leaderboard"
+    topten: "Top 10 highest scorers!"
+    level: "Level"
+    points: "points"
+  level:
+    levelinfo: "Level Info For"
+    curentlevel: "Current Level"
+    totalpoints: "Total Points"
+
+
+##########################################
+#                                        #
+#               Tickets                  #
+#                                        #
+##########################################
+
+tick:
+
+  # Settings # 
+  footer: "%SERVERNAME% Support ➤ Command ran by %USER%"
+  onlyInTicketChannel: "🚫 You can only use this in a ticket channel"
+  onlyInClosedTicketChannel: "🚫 You can only use this in a closed ticket channel"
+
+  # Messages #
+  add:
+    usage: "<user>"
+    added: "👋 %USER% has been added to the ticket."
+    log: "Ticket User Added!"
+  close:
+    whichTicket: "Which ticket do you want to close?"
+    voice: "🔊 - Your voice ticket"
+    both: "🎟️ - Your Voice & Chat ticket"
+    closed: "⛔ **This ticket is closed!**"
+    voiceTicketClose: "Your voice ticket has been closed"
+    managementView: "The ticket is closed, but has been kept under management view only."
+    delete: "**To delete this ticket use %DELETE%**"
+    log: "Close Ticket"
+    dm:
+      closed: "🗒 %SERVERNAME% Ticket Closed"
+      message: "Thanks for reaching out to our support team, we hope your issue was solved."
+      transcript: "Below is a copy of the transcript from the channel."
+  delete:
+    areYouSure: "**⚠ Are you sure you want to delete this ticket?**"
+    willBeDeleted: "The channel will be deleted."
+    react: "**React with ✅ to confirm your delete.**"
+    voidTime: "Your request will be voided in 20 seconds."
+    notDeleted: "⛔ Ticket not deleted!"
+    failed: "⛔ The ticket failed to delete because no confirmation was given in time."
+    log: "Delete Ticket"
+  forceDelete:
+    log: "Force Delete Ticket"
+  lower:
+    lowered: "📉 This ticket has been lowered."
+  new:
+    usage: "<reason>"
+    created: "✅ %USER%, your ticket has been created!"
+    location: "Location - %LOCATION%"
+    support: "🦺 %SERVERNAME% Support"
+    messageLine1: "Thank you for creating a ticket!"
+    messageLine2: "A member of our support team will be with you shortly."
+    messageLine3: "While you wait, please explain your issue in detail."
+    limit: "⛔ %USER%, you have reacted the maximum amount of tickets!"
+    reason: "**Reason -**"
+    log: "Open Ticket"
+  notice: 
+    title: "👋 Hey! Still need help?"
+    message: "Please update us on your issue so we can help you out."
+    close: "If you no longer need any help, please close the ticket with %CLOSE%"
+    noResponse: "If there is no response within **24 hours**, this ticket will be **closed** by a member of staff"
+  raise:
+    raised: "📈 This ticket has been raised."
+  remove:
+    usage: "<user>"
+    removed: "👋 %USER% has been removed from the ticket."
+    log: "Ticket User Removed"
+  reopen:
+    error: "Error Encountered!"
+    errorMessage: "This ticket cannot be reopened. Maybe the member left. If this is not the case please contact Hawsk Romania support"
+  ticketpanel:
+    create: "Create A Ticket"
+    desc: "Hey There! Need Support?"
+    react: "React below with %EMOJI% to open a ticket!"
+  voiceTicket:
+    created: "✅ Your voice ticket has been created!"
+    location: "Location - %LOCATION%"
+    log: "Open Voice Ticket"
+
+
+##########################################
+#                                        #
+#             Moderation                 #
+#                                        #
+##########################################
+
+moderation:
+
+  # Settings #
+  footer: "%SERVERNAME% Moderation ➤ Command ran by %USER%"
+  cantPunish: "🚫 You can't punish this user!"
+
+  # Messages #
+  ban:
+    usage: "<user> <reason>"
+    banned: "😮 User has been banned! 😮"
+    dm: "**%SERVERNAME%** - 😮 You have been banned! 😮"
+    log: "Ban"
+  clear:
+    usage: "<amount> [user]"
+    limitations: "Due to limitations by Discord, this must be below 100"
+    cleared: "♻ Cleared %AMOUNT% messages."
+    log: "Clear"
+  kick:
+    usage: "<user> <reason>"
+    kicked: "👢 User has been kicked! 👢"
+    dm: "**%SERVERNAME%** - 👢 You have been kicked! 👢"
+    log: "Kick" 
+  lockdown:
+    usage: "<time h/m/s>"
+    lifted: "✅ Lockdown Lifted."
+    locked: "🔒 Channel locked down for %TIME%."
+  mute:
+    usage: "<user> <reason>"
+    muted: "🤐 User has been muted! 🤐"
+    dm: "**%SERVERNAME%** - 🤐 You have been muted! 🤐"
+    log: "Mute"
+  report:
+    usage: "<user> <reason>"
+    reported: "🗒 User has been reported! 🗒"
+    report: "🗒 Report"
+    reportedBy: "**Reported By** -"
+    log: "Report"
+  say:
+    usage: "<message>"
+    log: "Say"
+  shout:
+    usage: "<message>"
+    log: "Shout"
+  slowmode:
+    usage: "<time in secs/off>"
+    off: "🐌 Slowmode has been turned off"
+    set: "🐌 Slowmode has been set to %TIME% seconds."
+    log: "Slowmode"
+  speak:
+    usage: "<message>"
+    log: "Speak"
+  tempMute:
+    usage: "<user> <time> <reason>"
+    tempMuted: "🤐 User has been temp-muted! 🤐"
+    time: "**Time** -"
+    dm:
+      tempMuted: "**%SERVERNAME%** - 🤐 You have been temp-muted! 🤐"
+      unMuted: "**%SERVERNAME%** - 🔊 You have been unmuted! 🔊"
+    logs:
+      tempMute: "Temp-Mute"
+      unMute: "Un-Temp-Mute"
+  unban: 
+    usage: "<id>"
+    unbanned: "😮 User has been un-banned! 😮"
+    dm: "**%SERVERNAME%** - 😮 You have been un-banned! 😮"
+    logs: "Un-Ban"
+  unmute:
+    usage: "<user>"
+    unmuted: "🔊 User has been un-muted! 🔊"
+    dm: "**%SERVERNAME%** - 🔊 You have been un-muted! 🔊"
+    log: "Un-Mute"
+  warn:
+    usage: "<user> <reason>"
+    warned: "📢 User has been warned! 📢"
+    dm: " 📢 You have been warned! 📢"
+    log: "Warn"
+
+      
+##########################################
+#                                        #
+#              Utilities                 #
+#                                        #
+##########################################
+
+utilities:
+  
+  # Settings #
+  footer: "%SERVERNAME% Utilities ➤ Command ran by %USER%"
+
+  # Messages #
+  addrole:
+    usage: "<user> <role>"
+    added: "✅ Added role!"
+    log: "Add Role"
+  announce:
+    usage: "<message>"
+    log: "Announcement"
+  apply:
+    application: "%USER%'s Application"
+    position: "For the position of %POSITION%"
+    split: "This application is split into %TOTALPARTS% parts. This is part %PART%."
+    started: "%USER% has started an application in %CHANNEL%"
+    position1: "**Position** - %POSITION%"
+    answerAll: "Please answer all **%TOTALQUESTIONS%** questions below."
+    cancel: "To cancel your application, type **stop**."
+    question: "Question"
+    cancelled: "Your application has been cancelled and not sent to %SERVERNAME%"
+    tryAgain: "To try again, type %COMMAND% in the %SERVERNAME% Discord server."
+    thanks: "✅ Thank you for applying to %SERVERNAME%."
+    deleted: "This channel will be deleted soon, but your application will be sent!"
+  bugreport:
+    usage: "<bug>"
+    sent: "✅ Bug Report Sent"
+    bugReport: "🐛 Bug Report"
+    reportedBy: "Reported By"
+    log: "Bug Report"
+  channelinfo:
+    type: "Type"
+    createdAt: "Created At"
+    ID: "ID"
+    topic: "Topic"
+    NSFW: "NSFW"
+    category: "Category"
+  donate:
+    donate: "💰 Donate to us!"
+    msg: "You can"
+    link: "donate here"
+    noDonationPage: "We dont have a donation page yet!"
+  help:
+    help: "%SERVERNAME% Help"
+    react: "React below to pick an option."
+    reactions:
+      economy: "Economy"
+      fun: "Fun & Games"
+      giveaways: "Giveaways"
+      levels: "Levels"
+      moderation: "Moderation"
+      music: "Music"
+      tickets: "Tickets"
+      utilities: "Utilities"
+  hexcolour:
+    usage: "hexcode"
+    capitals: "Remember to use capital letters."
+    colour: "Colour"
+    name: "NAME"
+    hex: "HEX"
+    rgb: "RGB"
+  invites:
+    inviteInfo: "💰 Invite info for %USER%."
+    net: "🔢 Net Invites"
+    joins: "⬆️ Joins"
+    leaves: "⬇️ Leaves"
+  latency:
+    checking: "Checking Latency..."
+    issue: "If this takes over 5 seconds, there is an issue with your host."
+    latency: "%BOTNAME% Latency"
+    latencyValue: "Latency is %LATENCY%ms"
+    apiLatencyValue: "API Latency is %APILATENCY%ms"
+  links:
+    links: "📎 **%SERVERNAME% Usefull Links**"
+    website: "Website"
+    forums: "Forums"
+    donate: "Donate"
+    noLinks: "We don't have any links yet!"
+  lmgtfy:
+    usage: "<question>"
+    lmgtfy: "LMGTFY"
+  ping:
+    pong: "🏓 Pong!"
+  pwdgen:
+    pwdgen: "Password Generator"
+    password: "Password"
+    length: "Length"
+    securityRating: "Security Rating"
+    insecure: "Insecure"
+    secure: "Secure"
+    verySecure: "Very Secure"
+    note: "Note - Your passwords are never stored on our side!"
+    dm:
+      failed: "🚫 Failed to send password!"
+      failTitle: "I can't DM you!"
+      failMsg: "Fix this by changing your privacy settings for this server to allow direct messages!"
+  removerole:
+    usage: "<user> <role>"
+    removed: "✅ Removed role!"
+    log: "Remove Role"
+  roleinfo:
+    undetectedRole: "🚫 Cannot Find Role!"
+    colour: "Colour"
+    sameAsEmbed: "(same as embed colour)"
+    createdAt: "Created At"
+    displayedSeperately: "Displayed Seperately?"
+    ID: "ID"
+    members: "Members"
+    permissions: "Permissions"
+  serverInfo:
+    name: "Name"
+    ID: "ID"
+    owner: "Owner"
+    region: "Region"
+    size: "Total | Humans | Bots"
+    verification: "Verification Level"
+    channels: "Channels"
+    roles: "Roles"
+    creationDate: "Creation Date"
+    informationAbout: "Information About"
+    regions:
+      brazil: "Brazil"
+      eucentral: "Central Europe"
+      singapore: "Singapore"
+      uscentral: "U.S. Central"
+      sydney: "Sydney"
+      useast: "U.S. East"
+      ussouth: "U.S. South"
+      uswest: "U.S. West"
+      euwest: "Western Europe"
+      vipuseast: "VIP U.S. East"
+      london: "London"
+      amsterdam: "Amsterdam"
+      hongkong: "Hong Kong"
+      russia: "Russia"
+      southAfrica: "South Africa"
+  social:
+    socialMedia: "🗯 %SERVERNAME% Social Media"
+    facebook: "Facebook"
+    twitter: "Twitter"
+    instagram: "Instagram"
+    youtube: "YouTube"
+    twitch: "Twitch"
+    none: "We don't have any social media yet!"
+  suggest:
+    usage: "<suggestion>"
+    sent: "✅ Suggestion Sent"
+    new: "🔗 New Suggestion"
+    log: "New Suggestion"
+  toascii:
+    usage: "<text>"
+    toascii: "📜 Text -> Ascii"
+    text: "Text"
+    ascii: "Ascii"
+  usercount:
+    usercount: "User Count"
+    totalMembers: "Total Members"
+    totalHumans: "Total Humans"
+    totalBots: "Total Bots"
+  userinfo:
+    username: "Full Username"
+    ID: "ID"
+    nickname: "Nickname"
+    noNickname: "None"
+    bot: "Bot"
+    status: "Status"
+    playing: "Playing"
+    notPlaying: "Not Playing"
+    roles: "Roles"
+    noRoles: "No Roles"
+    joinedDiscordAt: "Joined Discord At"
+    informationAbout: "Information About"
+    botList:
+      yes: "Yes"
+      no: "No"
+    statusList:
+      online: "Online"
+      idle: "Idle"
+      dnd: "Do Not Disturb"
+      offline: "Offline/Invisible"
+  verifypanel:
+    verify: "Verify Yourself"
+    desc: "Verify to gain access to our server!"
+    react: "React below with %EMOJI% to verify yourself!"
+  weather:
+    usage: "<location>"
+    invalidLocation: "🚫 Please enter a valid location!"
+    weather: "🌞 Weather for %LOCATION%"
+    timezone: "⏰ Timezone"
+    degreeType: "Degree Type"
+    temperature: "🌡Temperature"
+    feelsLike: "Feels Like"
+    winds: "🌪 Winds"
+    humidity: "Humidity"
+    degrees: "Degrees"
+
+
+##########################################
+#                                        #
+#            Server Events               #
+#                                        #
+##########################################
+
+events: 
+  pins:
+    update: "🗒 Channel Pins Updated"
+    changed: "A setting has been changed in this channel!"
+    checkPins: "Check channel pins to find out more!"
+  emoji:
+    add: "🗒 New Emoji Added"
+    update: "🗒 Emoji Updates"
+    remove: "🗒 Emoji Removed"
+    log: "**Emoji** -"
+    newlog: "**New Emoji** -"
+    oldlog: "**Old Emoji** -"
+  message:
+    delete: "🗒 Message Delete"
+    update: "🗒 Message Edit"
+    msgID: "**Message ID** -"
+    tooLong: "Error - Message Too Long"
+    oldMsg: "**Old Message** -"
+    newMsg: "**New Message** -"
+  role:
+    created: "🗒 New Role Created"
+    deleted: "🗒 Role Deleted"
+    role: "**Role** -"
+  welcome:
+    welcome: "**Welcome To %SERVERNAME%**"
+    joined: "has joined"
+    username: "Username:"
+    ID: "ID:"
+    totalMembers: "Total Members:"
+    log: "🗒 User Join"
+    inviteCode: "%USER% joined using invite code %CODE% from %CREATOR%."
+    used: "This invite was used %AMOUNT% times since it's creation."
+  leave:
+    leave: "**Thanks for visiting %SERVERNAME%**"
+    left: "has just left!"
+    username: "Username:"
+    ID: "ID:"
+    log: "🗒 User Leave"
+  levels:
+    congratulations: "🎉 Congratulations **%USER%**! You've leveled up!"
+    previous: "🔽 Previous Level"
+    new: "⏫ New Level"
+    total: "🔢 Total Points"
+  filters:
+    footer: "%SERVERNAME% Filters ➤ Message sent by %USER%"
+    advertise:
+      advertise: "😮 Please do not advertise!"
+      log: "🗒 Advertise"
+    swear:
+      swear: "😮 Please do not swear!"
+      log: "🗒 Swear"
+  antispam:
+    footer: "%SERVERNAME% Antispam"
+    muted: "Sending duplicate messages"
+    unmuted: "Antispam - User has been unmuted"
+    

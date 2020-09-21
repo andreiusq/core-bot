@@ -1,0 +1,319 @@
+
+#
+#   -------------------------------------------------
+#   Hawsk Romania
+#   -------------------------------------------------
+#   Created By Matt
+#   Edited by andreiusq & emblema
+#
+#   Version 1.3.2
+#   -------------------------------------------------
+#   Redistributing or leaking Hawsk Romania
+#
+#   Redistributing or leaking Hawsk Romania is a criminal offence
+#   and you can and will be prosecuted for doing it.
+#
+#   Check out our redistribution policy here,
+#   http://zeltux.net/legal/redistribution.html 
+#
+#   Find out more about our licensing and terms in
+#   the READ ME file.
+#   -------------------------------------------------
+#
+
+##########################################
+#                                        #
+#               Setup                    #
+#                                        #
+##########################################
+
+setup:
+  
+  # When setting up your bot, enter the bots token and your server ID below
+  token: "NjI3NTY5NTA1NDIxNDkyMjI1.XY-jpQ.yiD0hm-EPTEoD5vV3rNgRvNqqew"
+  serverID: "347312373914402828"
+
+  
+##########################################
+#                                        s#
+#               Settings                 #
+#                                        #
+##########################################
+
+# Change the main settings of the bot.
+
+colour: "FF0062"
+prefix: "hawk "
+
+# Change bot branding.
+
+serverName: "HAWKS-ROMÂNIA.RO  • COMMUNITY"
+botName: "Hawks"
+footer: "© andreiusq | Făcut special pentru Hawks România"
+
+statusMessage: "on patch: 1.1"
+
+inviteSystem: "on"
+
+liveConsoleLog: "on"
+
+# Pick a channel for commands to be ran in
+# leave blank for any channel
+commandChannels: []
+# Commands that ignore the command channel
+bypassCommands: ["gcreate", "gend", "gdelete", "greroll", "add", "remove", "lower", "raise", "close", "reopen",
+                 "delete", "forcedelete", "ticketpanel", "transcript", "voiceticket", "clear", "slowmode", "lockdown", "announce"]
+
+# Add ID's of users who will not be able to use
+# the bots commands. e.g. "227937678779294380"
+blackList: []
+
+
+##########################################
+#                                        #
+#               Features                 #
+#                                        #
+##########################################
+
+# Disable or enable core functions of the bot.
+
+core:
+  fun: "on"
+  moderation: "on"
+  tickets: "on"
+  utilities: "on"
+  giveaways: "on"
+  economy: "on"
+  levels: "on"
+  music: "on"
+
+
+##########################################
+#                                        #
+#               Welcome                  #
+#                                        #
+##########################################
+
+# Edit welcome and leave messages
+
+autoRoles: ["Membru"]
+
+joinLeaveMessage: "on"
+joinLeaveChannel: "discord-logs"
+
+welcomeMsg: "We hope you enjoy your stay!"
+
+leaveMsg: "They will be missed."
+
+# Enable and use the verifiction system
+
+verificationSystem: "off"
+verificationRole: "test"
+verificationChannel: "discord-logs"
+verifyPanelEmoji: "✅"
+
+
+##########################################
+#                                        #
+#          Roles & Channels              #
+#                                        #
+##########################################
+
+# Change the bot's core roles
+
+mutedRole: "Muted"
+
+# Add roles of people who can do the following:
+
+viewVerifyChannel:   ["Administrative Team"]
+talkInVerifyChannel: ["Administrative Team"]
+
+viewLogsChannel:  ["Administrative Team"]
+
+exemptFromPunishments:   ["Management Team", "Administrative Team"]
+
+
+# Change the bot's core channels
+
+logChannel: "discord-logs"
+suggestionChannel: "auto-mod-cases"
+reportChannel: "discord-logs"
+bugChannel: "discord-logs"
+
+
+##########################################
+#                                        #
+#               Tickets                  #
+#                                        #
+##########################################
+
+# Toggle & edit the ticket system
+
+ticketSystem: "on"
+ticketCategory: "HAWKS COMMUNITY [ STAFF ]"
+ticketPanelEmoji: "🎟️"
+maxTicketsPerUser: 1
+
+# Add roles of people who can do the following:
+
+canSeeTicket:        ["Management Team", "Administrative Team", "Development Team"]
+canSeeRaisedTicket:  ["Management Team", "Development Team"]
+canSeeClosedTicket:  ["Management Team", "Development Team"]
+
+
+##########################################
+#                                        #
+#             Applications               #
+#                                        #
+##########################################
+
+# Set application questions
+
+applicationSystem: "on"
+applicationCategory: "HAWKS COMMUNITY [ STAFF ]"
+applicationChannel: "tickets-test"
+applicationPosition: "Moderator"
+applicationQuestions:  [
+  "de ce inactivitate?",
+  "Q1",
+  "Q2?"
+]
+
+canSeeApplication: ["Administrative Team"]
+
+
+##########################################
+#                                        #
+#               Giveaways                #
+#                                        #
+##########################################
+
+# Modify giveaway details
+
+# {winners} - The giveaway winner(s)
+# {duration} - Remaining time of the giveaway
+# {prize} - The giveaway prize
+
+giveaways:
+  botsCanWin: false
+  ignoreIfHasPermission: []
+  reaction: "🎉"
+
+
+##########################################
+#                                        #
+#               Economy                  #
+#                                        #
+##########################################
+
+# Change economy settings
+
+economy:
+  currency: "$"
+  workCooldown: 300000
+  
+  jobs: [
+    # Title, Min Pay, Max Pay
+    ["engineer", 0, 400],
+    ["constructor", 0, 400],
+    ["cook", 0, 400],
+    ["technician", 0, 400],
+    ["police", 0, 400],
+    ["doctor", 0, 400]
+  ]
+
+  roleShop: [
+    # Role, Cost
+    ["Bronze", 4000],
+    ["Silver", 5500],
+    ["Gold", 7000]
+  ]
+
+
+##########################################
+#                                        #
+#                Levels                  #
+#                                        #
+##########################################
+
+# Enable and edit the leveling system
+
+levelSystem: "on"
+
+# Pick which channel to send level up
+# messages to, or use 'current' to be the
+# current channel
+levelChannel: "current"
+
+levelCoolDown: 30000
+levelMaxPoints: 15
+
+
+##########################################
+#                                        #
+#                Links                   #
+#                                        #
+##########################################
+
+# Edit your server social links
+
+social:
+  facebook: ""
+  twitter: ""
+  instagram: ""
+  youtube: ""
+  twitch: ""
+
+online:
+  website: ""
+  forums: ""
+  donate: ""
+
+
+##########################################
+#                                        #
+#               Filters                  #
+#                                        #
+##########################################
+
+swearFilter: "on"
+swearWords: ["fuck","shit","piss","dick","fucker","cock","cunt","bitch","whore","arse",
+            "bastard","wanker","bullshit","nigger","slut","choad","chode"]
+
+inviteFilter: "on"
+
+antiSpam: "on"
+antispamMessageLimit: 5
+antispamTimeLimit: 100000
+antiSpamMuteTime: 30000
+
+# Add roles of people who can do the following:
+
+swearBypass:   ["Administrative Team"]
+inviteBypass:  ["Administrative Team"]
+
+
+##########################################
+#                                        #
+#                Images                  #
+#                                        #
+##########################################
+
+# Edit the GIFS that the bot displays.
+
+slap: ["https://media.giphy.com/media/TA9NZjiqCIOTC/giphy.gif",
+      "https://media.giphy.com/media/xT8qB7Sbwskk27Rdy8/giphy.gif",
+      "https://media.giphy.com/media/lX03hULhgCYQ8/giphy.gif",
+      "https://media.giphy.com/media/u8maN0dMhVWPS/giphy.gif",
+      "https://media.giphy.com/media/l41lZEoYn6z1uc2fS/giphy.gif"
+      ]
+    
+hug: ["https://media.giphy.com/media/EvYHHSntaIl5m/giphy.gif",
+      "https://media.giphy.com/media/QbkL9WuorOlgI/giphy.gif",
+      "https://media.giphy.com/media/yidUzriaAGJbsxt58k/giphy.gif",
+      "https://media.giphy.com/media/roVZxEfHaVCWA/giphy.gif",
+      "https://media.giphy.com/media/vTtibSrt4dlIc/giphy.gif"
+     ]
+
+
+# © Hawsk Romania Discord Bot | Do Not Copy

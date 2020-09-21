@@ -1,0 +1,644 @@
+##########################################
+
+#        *  Command Control  *           #
+
+
+# This command file is where you can control all of the commands.
+# Here you can disable commands, fine control permissions, and set aliases.
+
+
+## Tutorial
+
+#   
+#   commandName:
+#     enabled: True
+#     permissions:
+#       - "Member"
+#       - "Management Team Team"
+#     aliases:
+#       - "cmd"
+#       - "com"
+
+#   Name - The first line is the commands name, you MUST NOT change this.
+#   Enabled - Enabled can be set to 'True' or 'False' depending on if you want the command enabled or not.
+#   Permissions - Permissions can be set to whatever roles you want to give access to the command. If you want to give anyone access, set this to "@everyone".
+#   Aliases - Other commands the user can type which do the same thing.
+
+
+## Hawsk Romania Tip! - Use CTRL+F to search this file for commands!
+
+
+#         * Command Control *            #
+
+##########################################
+
+
+
+##########################################
+#                                        #
+#              Giveaways                 #
+#                                        #
+##########################################
+
+
+gcreate:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+gdelete:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+gend:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+greroll:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+
+##########################################
+#                                        #
+#               Economy                  #
+#                                        #
+##########################################
+
+bal:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+buy:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+deposit:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    - d
+shop:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+top:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+withdraw:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+work:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+
+##########################################
+#                                        #
+#             Fun & Games                #
+#                                        #
+##########################################
+
+8ball:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+flip:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+hug:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+joke:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+meme:
+  enabled: True
+  permissions:  
+    - "@everyone"
+  aliases:
+    -
+numbergen:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+poll:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+rate:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+roll:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+rps:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+slap:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+xmas:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+
+##########################################
+#                                        #
+#             Moderation                 #
+#                                        #
+##########################################
+
+ban:
+  enabled: True
+  permissions:
+    - "Management Team"
+    - "Administrative Team"
+    - "Developer"
+  aliases:
+    -
+clear:
+  enabled: True
+  permissions:
+    - "Management Team"
+    - "Administrative Team"
+    - "Developer"
+  aliases:
+    -
+kick:
+  enabled: True
+  permissions:
+    - "Management Team"
+    - "Administrative Team"
+    - "Developer"
+  aliases:
+    -
+lockdown:
+  enabled: True
+  permissions:
+    - "Management Team"
+    - "Administrative Team"
+    - "Developer"
+  aliases:
+    -
+mute:
+  enabled: True
+  permissions:
+    - "Management Team"
+    - "Administrative Team"
+    - "Developer"
+  aliases:
+    -
+report:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+say:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+shout:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+slowmode:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+speak:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+    - "Developer"
+  aliases:
+    -
+tempmute:
+  enabled: True
+  permissions:
+    - "Management Team"
+    - "Administrative Team"
+  aliases:
+    -
+unban:
+  enabled: True
+  permissions:
+    - "Management Team"
+    - "Administrative Team"
+  aliases:
+    -
+unmute:
+  enabled: True
+  permissions:
+    - "Management Team"
+    - "Administrative Team"
+  aliases:
+    -
+warn:
+  enabled: True
+  permissions:
+    - "Management Team"
+    - "Administrative Team"
+  aliases:
+    -
+
+##########################################
+#                                        #
+#                Music                   #
+#                                        #
+##########################################
+
+leave:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+pause:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+play:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+queue:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+resume:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+search:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+skip:
+  enabled: True
+  permissions:
+    - "Management Team"
+    - "Administrative Team"
+  aliases:
+    -
+volume:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+voteskip:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+
+##########################################
+#                                        #
+#              Tickets                   #
+#                                        #
+##########################################
+
+add:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+close:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+delete:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+forcedelete:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+lower:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+new:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+notice:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+raise:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+remove:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+reopen:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+ticketpanel:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+transcript:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+voiceticket:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+
+##########################################
+#                                        #
+#              Utilties                  #
+#                                        #
+##########################################
+
+addrole:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+    - "Developer"
+  aliases:
+    -
+announce:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+apply:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+bot:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+botlinks:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+bugreport:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+channelinfo:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+donate:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+help:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+hexcolour:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+invites:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+latency:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+links:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+lmgtfy:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+ping:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+pwdgen:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+removerole:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+    - "Developer"
+  aliases:
+    -
+roleinfo:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+rr:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    -
+serverinfo:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+setup:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+social:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+suggest:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+toascii:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+usercount:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+userinfo:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+verifypanel:
+  enabled: True
+  permissions:
+    - "Administrative Team"
+  aliases:
+    - 
+weather:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    - 
+
+##########################################
+#                                        #
+#               Levels                   #
+#                                        #
+##########################################
+
+leaderboard:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
+level:
+  enabled: True
+  permissions:
+    - "@everyone"
+  aliases:
+    -
